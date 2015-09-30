@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="http://i.imgur.com/7os74vc.png">
+  <img align=center width=300 src="http://i.imgur.com/7os74vc.png">
 </h1>
 
 > A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
