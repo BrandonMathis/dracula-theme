@@ -19,21 +19,12 @@ setopt prompt_subst
 autoload -U add-zsh-hook
 autoload -Uz vcs_info
 
-#use extended color pallete if available
-# if [[ $terminfo[colors] -ge 256 ]]; then
-#     blue="%F{21}"
-#     turquoise="%F{81}"
-#     orange="%F{166}"
-#     purple="%F{56}"
-#     hotpink="%F{161}"
-#     green="%F{40}"
-# else
-    turquoise="%F{cyan}"
-    orange="%F{yellow}"
-    purple="%F{magenta}"
-    hotpink="%F{red}"
-    green="%F{green}"
-# fi
+red="%F{red}"
+green="%F{green}"
+yellow="%F{yellow}"
+blue="%F{blue}"
+magenta="%F{magenta}"
+cyan="%F{cyan}"
 
 # enable VCS systems you use
 zstyle ':vcs_info:*' enable git svn
@@ -96,5 +87,5 @@ function steeef_precmd {
 }
 add-zsh-hook precmd steeef_precmd
 
-PROMPT=$'%{$green%}%n${PR_RST}@%{$hotpink%}%m${PR_RST} %{$purple%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
+PROMPT=$'%{$magenta%}%n${PR_RST}@%{$red%}%m${PR_RST} %{$green%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
 💭  '
